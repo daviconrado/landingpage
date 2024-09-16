@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing-page tailwindcss</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-zinc-100 text-zinc-600">
+    <div class="absolute inset-x-0 top-0 w-full h-14">
+        <header>
+            <nav class="flex items-center p-2 bg-white">
+                <div class="logo ml-20 flex gap-2 justify-center items-center">
+                    <img src="./img/icon.png" alt="" class="h-4 w-6">
+                    <h2 class="font-bold text-lg cursor-pointer">Nexcent</h2>
+                </div>
+                <div class="itens flex flex-1 justify-end gap-8">
+                    <a class="hover:text-zinc-300 cursor-pointer">Home</a>
+                    <a class="hover:text-zinc-300 cursor-pointer">Features</a>
+                    <a class="hover:text-zinc-300 cursor-pointer">Community</a>
+                    <a class="hover:text-zinc-300 cursor-pointer">Blog</a>
+                    <a class="hover:text-zinc-300 cursor-pointer">Pricing</a>
+                </div>
+                <div class="btn">
+                    <button class="bg-green-500 hover:bg-green-600 text-white py-2 px-3 border rounded mr-20 ml-6">Register Now</button>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="home h-0.75vh flex-col">
+        <div class="hero mt-24 mx-20 flex">
+            <div class=" my-15 mr-12 flex flex-col">
+                <div class="text my-12 flex flex-col justify-center">
+                    <h1 class="text-6xl font-sans text-zinc-600 font-semibold">Lessons and insight <span class="text-green-500">from 8 years</span></h1><br>
+                    <h2>Where to grow your business as a photographer: site or social media?</h2>
+                    <div class="btn mt-10"> <button class="bg-green-500 hover:bg-green-600 text-white py-2 px-3 border rounded">Register Now</button></div>
+                </div>
+                
+            </div>
+            <div class="img w-96 flex my-12 items-center justify-end"><img src="./img/img1.png" alt=""></div>
+        </div>
+        <div class="p-1 flex justify-center mb-10">
+            <div class="py-1 px-8 flex gap-2">
+                <div class="py-1 px-1 rounded-full bg-green-500"></div>
+                <div class="py-1 px-1 rounded-full bg-green-500/30"></div>
+                <div class="py-1 px-1 rounded-full bg-green-500/30"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
